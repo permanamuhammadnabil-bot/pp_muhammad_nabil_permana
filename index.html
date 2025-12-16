@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portofolio - m.nabil</title>
+  <style>
+    :root{--bg:#f4f7fb;--card:#ffffff;--accent:#3b82f6;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#0f172a}
+    .wrap{max-width:900px;margin:28px auto;padding:20px}
+    .card{background:var(--card);border-radius:12px;padding:20px;box-shadow:0 6px 18px rgba(15,23,42,0.06);}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:112px;height:112px;border-radius:12px;object-fit:cover;background:linear-gradient(135deg,#e2e8f0,#f8fafc);display:flex;align-items:center;justify-content:center;color:var(--muted)}
+    h1{margin:0;font-size:22px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr 300px;gap:18px;margin-top:18px}
+    @media (max-width:800px){.grid{grid-template-columns:1fr}}
+    section{margin-bottom:14px}
+    h2{font-size:16px;margin:0 0 10px}
+    ul{padding-left:18px;margin:0}
+    .meta{font-size:14px;color:var(--muted)}
+    .skill{display:inline-block;background:#eef2ff;color:#1e293b;padding:6px 10px;border-radius:999px;margin:6px 6px 0 0;font-size:13px}
+    .contact a{color:var(--accent);text-decoration:none}
+    .muted{color:var(--muted);font-size:14px}
+    .btn{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:white;text-decoration:none}
+    .section-card{background:#fbfdff;border-radius:10px;padding:12px}
+    .small{font-size:13px;color:var(--muted)}
+    /* Replace this file's placeholders (text in brackets) with your real data */
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <header>
+        <div style="flex:1">
+          <h1>portofolio pribadi</h1>
+          <p class="lead">  Mahasiswa Fresh Graduate  Pengembang Web Pemula </p>
+          
+        </div>
+        <div style="width:120px;text-align:right">
+          <!-- Ganti src dengan nama file foto atau URL foto kamu -->
+          <img class="avatar" src="profil.jpg" alt="Foto [Nama]" />
+        </div>
+      </header>
+
+      <div class="grid">
+        <main>
+          <section>
+            <h2>Biodata Diri</h2>
+            <div class="section-card">
+              <p><strong>Nama:</strong>M.NABIL PERMANA</p>
+              <p><strong>Alamat / Tempat Tinggal:</strong>tasikmalaya</p>
+              <p><strong>Jenis Kelamin:</strong> Laki-laki </p>
+              <p><strong>Agama:</strong>islam</p>
+              <p><strong>Hobi:</strong>bermain game</p>
+            </div>
+          </section>
+
+          <section>
+            <h2>Keahlian</h2>
+            <div class="section-card">
+              <!-- Tambahkan atau hapus skill sesuai kebutuhan -->
+              <span class="skill">Komunikasi</span>
+              <span class="skill">Microsoft Office</span>
+              <span class="skill">Desain Grafis (Canva)</span>
+              <span class="skill">Dasar HTML &amp; CSS</span>
+              <span class="skill">Editing Video Dasar</span>
+              <p class="small" style="margin-top:10px">(Tip: sebutkan level untuk tiap keahlian, mis. Dasar / Menengah / Mahir)</p>
+            </div>
+          </section>
+
+          <section>
+            <h2>Pengalaman</h2>
+            <div class="section-card">
+              <!-- Jika belum ada pengalaman kerja, bisa tulis pengalaman organisasi atau proyek sekolah -->
+              <p><strong>[2024] Relawan Panitia Kegiatan Sekolah</strong></p>
+              <p class="small">Deskripsi singkat: Membantu koordinasi acara, mengelola pendaftaran peserta, dan membuat materi promosi.</p>
+
+              <hr style="border:none;border-top:1px solid #eef2f8;margin:12px 0">
+
+              <p><strong>[2023] Projek Portofolio Pribadi</strong></p>
+              <p class="small">Deskripsi singkat: Membuat halaman web portofolio sederhana menggunakan HTML &amp; CSS.</p>
+            </div>
+          </section>
+
+          <section>
+            <h2>Pencapaian</h2>
+            <div class="section-card">
+              <ul>
+                <li>Juara 1 membangun jaringan fiber optik(2022)</li>
+                <li>Sertifikat Pelatihan Dasar Desain Grafis (2023)</li>
+                <li>Guru Terbaik Pilihan Siswa (opsional)</li>
+              </ul>
+            </div>
+          </section>
+
+          <section>
+            <h2>Tujuan</h2>
+            <div class="section-card">
+              <p>"[Tuliskan tujuan karier atau belajar kamu — contoh: Mengembangkan keterampilan desain &amp; web, serta mendapatkan pengalaman kerja yang membantu mempersiapkan masa depan profesional saya]")</p>
+            </div>
+          </section>
+
+        </main>
+
+        <aside>
+          <section>
+            <h2>Kontak</h2>
+            <div class="section-card contact">
+              <p><strong>Email:</strong> <a href="mailto:email@contoh.com">email@contoh.com</a></p>
+              <p><strong>No. HP / WhatsApp:</strong> <a href="tel:+628xxxxxxxxxx">+62 8xx-xxxx-xxxx</a></p>
+              <p><strong>Instagram:</strong> <a href="https://instagram.com/username" target="_blank">@username</a></p>
+              <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/username" target="_blank">linkedin.com/in/username</a></p>
+            </div>
+          </section>
+
+          <section style="margin-top:12px">
+            <h2>Ringkasan Singkat</h2>
+            <div class="section-card">
+              <p class="small">[Satu atau dua kalimat yang menjelaskan siapa kamu dan apa yang ingin kamu capai. Contoh: "Saya lulusan SMA yang bersemangat belajar desain grafis dan pengembangan web. Siap bekerja keras dan tumbuh bersama tim."]</p>
+            </div>
+          </section>
+
+          <section style="margin-top:12px">
+            <h2>Unduh / Cetak</h2>
+            <div class="section-card">
+              <p class="small">Untuk menyimpan portofolio ini, ganti teks placeholder dengan data asli, kemudian simpan file HTML dan buka di browser. Gunakan Print (Ctrl+P) untuk menyimpan sebagai PDF.</p>
+              <a class="btn" href="#" onclick="window.print();return false;">Print / Save as PDF</a>
+            </div>
+          </section>
+        </aside>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
+
